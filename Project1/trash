@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            starbucks.in
+        </title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <nav>
+            <div>
+                <div class="logo">
+                    <img src="logo\logo.png">
+                </div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Gift</a></li>
+                    <li><a href="#">Order</a></li>
+                    <li><a href="#">Pay</a></li>
+                    <li><a href="#">Store</a></li>
+                </ul>
+            </div>
+        </nav>
+    </body>
+</html>
+
+-------------------------------------------------------------------
+
+.logo img{
+    height: 40px;
+    width: 40px;
+}
+.logo{
+    padding-left: 317px;
+    padding-top: 9px;
+}
+nav ul{
+    display: flex; 
+    justify-content: center; 
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+}
+nav li a{
+    font-size: 18px;
+    padding: 30px;
+    padding-top: 0px;
+    color: gray;
+    text-decoration: none;
+    font-family: SoDoSans_Semibold,Helvetica,sans-serif;
+}
+
+==================================================================
+align-items: center;
+background-color: #00754a;
+width: 1000px;
+height: 200px;
+margin-top: 14px;
+margin-right: 700px;
+margin-left: auto;
+border-radius: 8%;
+box-shadow: 10px 10px 10px rgba(0, 0, 0, 15);
+
+
+
+.card-order{
+    background-color: #00754a;
+    border-width: 0px;
+    color: white;
+    height: 49px;
+    width: 200px;
+    border-radius: 50px;
+    margin-left: 750px;   
+    cursor: pointer; 
+    right: 30px;
+}
+
+
+<button class="card-order">
+    Order Now 
+</button>
+
+=======================================================================
+body {
+    margin: 0;
+    padding: 0;
+}
+.nav-container{
+    position: fixed;
+    height: 73px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 4px 3px 8px rgba(0, 0, 0, .15);
+    margin-top: -79px;
+}
+.navbar{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 10px;
+
+}
+.logo{
+    height: 40px;
+    width: 40px;
+    padding-left: 317px;
+    padding-top: 9px;
+    padding-right: 0px;
+    cursor: pointer;
+}
+nav{
+    flex: 1;
+    padding-left: 1px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+}
+nav ul li a{
+    font-size: 16px;
+    padding: 9px;
+    padding-top: 0px;
+    color: gray;
+    text-decoration: none;
+    font-family: SoDoSans_Semibold,Helvetica,sans-serif;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+}
+
+.search-box input[type="search"] {
+    text-indent: 18px;
+    padding: 13px 25px;
+    border: none;
+    border-radius: 20px; 
+    font-size: 10px;
+    font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+    margin-right: 450px;
+    width: 280px;
+    box-shadow: 4px 3px 15px rgba(0, 0, 0, .10);
+    margin-right: 72px;
+}
+.search{
+    position: fixed;
+    padding-left: 20px;
+    font-size: large;
+}
+
+.account {
+    float: left;
+    margin-right: 330px; 
+    cursor: pointer;
+}
+
+.home-link:focus,
+.gift-link:focus,
+.order-link:focus,
+.pay-link:focus,
+.store-link:focus {
+    font-weight: bold;
+    border-bottom: 2px solid #00754a;
+}
+
+.top-banner{
+    background-color: #1e3932;
+    height: 80px;
+    margin-top: 80px;
+
+}
+
+.banner-content{
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 320px;
+    cursor: pointer;
+    margin-top: 72px;
+}
+
+.banner-button {
+    background-color: transparent;
+    border-color: rgb(255, 255, 255);
+    border-width: 2px;
+    color: white;
+    height: 30px;
+    width: 110px;
+    border-radius: 50px;
+    margin-left: 750px;   
+    cursor: pointer; 
+}
+
+.banner-text{
+    font-family: SoDoSans_Light,Helvetica,sans-serif!important;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.handcrafted-curations{
+    display: flex;
+}
+.handcrafted-curations{
+    margin-left: 320px;
+}
+.handcrafted-text{
+    font-family: SoDoSans_Light,Helvetica,sans-serif!important;
+    font-size: 17px;
+    font-weight: 300;
+    color: #1e3932;
+}
+
+.cat-img{
+    display: flex;
+    
+}
+
+.handipacked-item{
+    align-items: center;
+}
+
+.handipacked-item img{
+    margin-top: 14px;
+    margin-right: 127px;
+    margin-left: auto;
+    width: 108px;
+    height: 108px;
+    border-radius: 60px;
+    align-items: center;
+}
+
+.handipacked-item p{
+    text-align: center;
+    /* margin-left: 8px; */
+    width: 100px;
+    font-family: SoDoSans_Semibold,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #212529;
+    margin: 5px 8px 24px;
+}
+
+.suggestion{
+    display: flex;
+    align-items: center;
+}
+.suggestion-container{
+    display: flex;
+    margin-top: 70px;
+    height: 220px;
+    width: 1280px;
+    background-color: #dec49c;
+    margin-right: 320px;
+    margin-left: auto;
+    border-radius: 10px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, .30);
+    cursor: pointer;
+}
+.suggestion-container img{
+    width: 106px;
+    margin-right: 20px;
+}
+
+.card-text p {
+    display: flex;
+    font-family: SoDoSans_Regular, Helvetica, sans-serif;
+    margin-left: 34px;
+    color: #212529;
+    margin-bottom: 2px;    
+}
+.title-text{
+    margin-top: 27px ;
+    margin-bottom: 6px;
+}
+.card-head {
+    font-size: 20px;
+    font-weight: bold;
+    color: #212529;
+    margin-top: 10px;
+
+}
+.card-price{
+    height: 50px;
+    width: auto;
+    font-size: 12px;
+    margin-top: 50px;
+    color: #212529;
+    font-family: SoDoSans_Regular, Helvetica, sans-serif;
+}
+.card-rate{
+    margin-top: 3px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.card-order{
+    color: white;
+    font-weight: bold;
+    margin-left: 270px;
+    margin-top: 140px;
+    height: 49px;
+    width: 200px;
+    border-radius: 50px;
+    border-width: 0px;
+    background-color: #00754a;
+    box-shadow: 4px 3px 15px rgba(0, 0, 0, .10);
+    cursor: pointer;
+
+}
+
+.left-arrow{
+    position: relative;
+    left: 286px;
+    top: 50px;
+    opacity: 40%;
+    cursor: pointer;
+}
+.right-arrow{
+    position: relative;
+    left: 1486px;
+    top: 50px;
+    cursor: pointer;
+}
+.offer-discovery{
+    margin-top: 40px;
+    margin-left: 320px;
+}
+
+
+.card1-container{
+    width: 407.33px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 8px 7px 10px rgba(0, 0, 0, 0.1), 
+                -8px -7px 10px rgba(0, 0, 0, 0.1);
+}
+.offer-image img{
+    width: 407.33px;
+    height: 167px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.card1-container{
+    margin-left: px;
+}
+/* .card1-body img{
+    margin-left: 20px;
+} */
+.card1-text p{
+    width: 70px;
+    font-size: 10px;
+    display: flex;
+    margin-top: 3.5px;
+    margin-left: 6.5px;
+    font-family: SoDoSans_Regular, Helvetica, sans-serif;
+    font-weight: 740;
+    color: #00754a;
+    background-color: #d1f3e9;
+    border-radius: 20px;
+}
+.card1-text{
+    display: flex;
+}
+
+.mocha{
+    margin-top: 0px;
+    font-size: 14px;
+    font-family: SoDoSans_Regular, Helvetica, sans-serif;
+    color: #1e3932;
+    font-weight: 550;
+    margin-bottom: 0px;
+}
+
+.lower-title{
+    font-size: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #6c757d;
+    margin-top: 0px;
+}
+
+.description p{
+    font-size: 11px;
+    width: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #6c757d;
+}
+.card1-bottom{
+    display: flex;
+}
+.card1-price{
+    margin-left: 220px;
+    margin-top: 15px;
+    color: white;
+    font-weight: bold;
+    height: 32px;
+    width: 96px;
+    border-radius: 50px;
+    border-width: 0px;
+    background-color: #00754a;
+    box-shadow: 4px 3px 15px rgba(0, 0, 0, .10);
+    cursor: pointer;
+
+}
+
+===============================================================================
+<div class="card2-container">
+<div class="offer-card1">
+    <div class="offer-image">
+        <img src="images/002.webp">
+    </div>
+<div class="card1-body">
+    <div class="card1-text">
+        <img src="images/veg.svg">
+    <div>
+        <p>New Launch</p>
+    </div>
+        
+    </div>
+    <div class="card1-title">
+        <p class="mocha">
+            Mocha Cookie Crumble Frappuccino 
+        </p>
+        <span  class="lower-title">
+            TALL(Tall Mocha Cookie Crumble Frappuccino)  
+        </span>
+    </div>
+    <div class="description">
+        <p>
+            A perfect blend of coffee, vanilla flavour, milk and cocoa powder. Finished with delicious chocolate whipped c 
+            <span _ngcontent-gck-c171="" class="ng-star-inserted">...</span>
+        </p>
+    </div>
+    <div class="card1-bottom">
+        <div class="price">
+            <h4 >₹ 483<span class="round-figure">.75</span></h4>
+        </div>
+        <button class="card1-add-item">
+            Add Item 
+        </button>
+    </div>
+</div>
+</div>
+
+
+=================================================================================================
+
+.offer-discovery{
+    margin-top: 40px;
+    margin-left: 300px;
+    display: flex;
+}
+
+
+
+
+
+
+
+
+.card1-container{
+    width: 407.33px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 8px 7px 10px rgba(0, 0, 0, 0.1), 
+                -8px -7px 10px rgba(0, 0, 0, 0.1);
+    border-top-left-radius: 20px;
+    /* border-bottom-right-radius: 20px; */
+}
+.offer-image img{
+    width: 407.33px;
+    height: 167px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.card1-body{
+    margin-left: 25px;
+    
+}
+.card1-text p{
+    width: 70px;
+    font-size: 10px;
+    display: flex;
+    margin-top: 3.5px;
+    margin-left: 6.5px;
+    font-family: SoDoSans_Regular, Helvetica, sans-serif;
+    font-weight: 740;
+    color: #00754a;
+    background-color: #d1f3e9;
+    border-radius: 20px;
+}
+.card1-text{
+    display: flex;
+}
+
+.mocha{
+    margin-top: 0px;
+    font-size: 14px;
+    font-family: SoDoSans_Regular, Helvetica, sans-serif;
+    color: #1e3932;
+    font-weight: 550;
+    margin-bottom: 0px;
+}
+
+.lower-title{
+    font-size: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #6c757d;
+    margin-top: 0px;
+}
+
+.description p{
+    font-size: 11px;
+    width: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #6c757d;
+}
+.card1-bottom{
+    display: flex;
+}
+.price{
+    font-size: 14px;
+}
+.card1-add-item{
+    margin-left: 210px;
+    margin-top: 1px;
+    color: white;
+    font-weight: bold;
+    height: 32px;
+    width: 96px;
+    border-radius: 50px;
+    border-width: 0px;
+    background-color: #00754a;
+    box-shadow: 4px 3px 15px rgba(0, 0, 0, .10);
+    cursor: pointer;
+}
+
+
+.card2-container{
+    margin-left: 500px;
+    width: 407.33px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 8px 7px 10px rgba(0, 0, 0, 0.1), 
+                -8px -7px 10px rgba(0, 0, 0, 0.1);
+    border-top-left-radius: 20px;
+}
+
+.card3-container{
+    margin-top: 0px;
+    margin-left: 1000px;
+    width: 407.33px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 8px 7px 10px rgba(0, 0, 0, 0.1), 
+                -8px -7px 10px rgba(0, 0, 0, 0.1);
+    border-top-left-radius: 20px;
+}
+
+.body-cards{
+    margin-top: 0px;
+    height: 0px; 
+    width: auto;
+}
